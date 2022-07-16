@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial, "tahoma";
+}
+
+/* start body style -----------------------------------------------*/
+body {
+  background-color: bisque;
+}
+/* endbody style -----------------------------------------------*/
+
+/* start container style -----------------------------------------------*/
+.container {
+  width: 1600px;
+  margin: auto;
+}
+/* end container style -----------------------------------------------*/
+
+/* start header style -----------------------------------------------*/
+.header {
+  width: 100%;
+  height: 800px;
+  background-image: url(https://1.top4top.net/p_1292lb2e71.png);
+  position: relative;
+}
+.nav {
+  width: 100%;
+  height: 85px;
+  position: absolute;
+  margin-top: 30px;
+}
+.nav ul {
+  list-style: none;
+  float: left;
+  margin-left: 436px;
+}
+.nav ul li {
+  margin: 35px;
+  float: left;
+  color: #63606e;
+  margin-top: 37px;
+  transition: all 0.3s;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.nav ul li:hover {
+  transform: scale(1.2);
+  text-shadow: 2px 2px 30px #6c6a7e;
+}
+#logo {
+  display: inline-block;
+  margin-top: 0;
+}
+#logo {
+  transform: scale(1);
+}
+.nav ul li a {
+  color: #4d4959;
+  text-decoration: none;
+}
+/* end header style -----------------------------------------------*/
+
+/* start section1 and section3 style -----------------------------------------------*/
+.section1,
+.section3 {
+  height: 470px;
+  width: 100%;
+  background-color: #f7f7f7;
+  color: #353738;
+  text-align: center;
+}
+#icon1,
+#icon2 {
+  margin-top: 118px;
+}
+.section1 h4,
+.section3 h4 {
+  margin-top: 34px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.section1 h4:hover,
+.section3 h4:hover {
+  cursor: pointer;
+}
+.section1 p,
+.section3 p {
+  width: 1170px;
+  margin: auto;
+  margin-top: 25px;
+  color: #848789;
+  font-size: 17px;
+  padding: 5px;
+  line-height: 35px;
+}
+/* end section1 and section3 style -----------------------------------------------*/
+
+/* start section2 style -----------------------------------------------*/
+.section2 {
+  height: 1800px;
+}
+/* --------------------- */
+.bigphoto {
+  width: 1067px;
+  float: left;
+  height: 600px;
+  position: relative;
+}
+.bigphoto img.bikelogo {
+  position: absolute;
+  z-index: 1;
+  left: 477px;
+  top: 241px;
+}
+/* --------------------- */
+.smallphoto {
+  width: 533px;
+  background-color: aqua;
+  float: left;
+  height: 600px;
+}
+.details {
+  height: 400px;
+  background-color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+.details img {
+  margin-top: 58px;
+}
+.details h4 {
+  letter-spacing: 2px;
+  color: #353738;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.details p {
+  width: 365px;
+  color: #8c8f91;
+  margin: auto;
+  text-align: left;
+  margin-top: 25px;
+  line-height: 22px;
+  word-wrap: break-word;
+}
+.square {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 2;
+  transform: rotate(45deg);
+  margin: auto;
+  top: 390px;
+  left: 257px;
+}
+
+/* --------------------- */
+
+hr {
+  width: 55px;
+  margin: auto;
+  margin-top: 40px;
+  border-style: none;
+  background-color: #d7d7d7;
+  height: 1.5px;
+  border-radius: 1px;
+}
+
+.section4 {
+  height: 534px;
+}
+.section4 .container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.section4 .wing {
+  width: 533px;
+  height: 100%;
+  background-color: red;
+  float: left;
+}
+.section4 .wing #rbig,
+.section4 .wing #rrsmall,
+.section4 .wing #rlsmall {
+  float: left;
+}
+.section4 .wing #rlsmall {
+  height: 267px;
+  width: 266px;
+}
+.section4 .wing #llsmall {
+  float: left;
+  width: 266px;
+  height: 267px;
+}
+.section4 .wing #lrsmall {
+  float: left;
+  width: 267px;
+}
+.section4 .mid {
+  width: 534px;
+  height: 100%;
+  float: left;
+}
+.section4 .mid #graybike {
+  float: left;
+  width: 267px;
+  height: 534px;
+  float: left;
+}
+.section4 .mid #brownbike {
+  float: left;
+}
+.section5 {
+  height: 200px;
+  background-color: #282f35;
+  text-align: center;
+}
+.section5 button {
+  width: 398px;
+  height: 48px;
+  padding: 15px;
+  border: 2px solid #94979a;
+  margin-top: 75px;
+  letter-spacing: 2px;
+  background-color: #282f35;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.section6 {
+  height: 470px;
+  background-color: #fff;
+  text-align: center;
+}
+.section6 img {
+  margin-top: 110px;
+}
+.section6 h4 {
+  color: #848789;
+  margin-top: 39px;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+}
+form {
+  width: 540px;
+  height: 71px;
+  margin: auto;
+  margin-top: 35px;
+}
+form input#email {
+  height: 70px;
+  width: 400px;
+  float: left;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 28px;
+  box-sizing: border-box;
+  color: #fffcfc;
+}
+form input#submit {
+  height: 70px;
+  width: 125px;
+  background-color: #64c29e;
+  float: left;
+  border: 0;
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: 1.2em;
+  margin-left: 11px;
+}
+.section7 {
+  height: 250px;
+  background-color: #f7f7f7;
+}
+.section7 .container {
+  width: 100%;
+  background: #fff;
+  margin-top: 100px;
+}
+.section7 .sec1 {
+  width: 500px;
+  height: 250px;
+  float: left;
+  margin-left: 50px;
+  text-align: left;
+  color: #848789;
+  box-sizing: border-box;
+  padding-left: 200px;
+}
+.section7 .sec1 h4 {
+  margin-top: 100px;
+}
+.section7 .sec2 {
+  width: 500px;
+  height: 250px;
+  float: left;
+  color: #848789;
+  text-align: center;
+}
+.section7 .sec2 a img {
+  margin-top: 108px;
+  margin-left: 15px;
+}
+.section7 .sec2 a {
+  text-decoration: none;
+}
+.section7 .sec3 {
+  width: 500px;
+  height: 250px;
+  float: left;
+  color: #848789;
+}
+.section7 .sec3 h5 {
+  margin-top: 118px;
+  font-size: 14px;
+}
+.section7 .sec3 img {
+  float: left;
+  margin-top: 110px;
+  margin-left: 10px;
+}
